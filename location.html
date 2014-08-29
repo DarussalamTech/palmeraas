@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Location -- Palmeras Riyadh</title>
+
+<link rel="stylesheet" type="text/css" href="icons/ss-standard.css" />
+<link rel="stylesheet" type="text/css" href="css/pictureflip.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/scroller.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/prettify/prettify.js"></script>
+<script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+<!----------GOOGLE MAP-------->
+<script
+src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+<script>
+var myCenter=new google.maps.LatLng(24.7082831,46.6789153);
+
+function initialize()
+{
+var mapProp = {
+  center:myCenter,
+  zoom:18,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker=new google.maps.Marker({
+  position:myCenter,
+  icon:'images/map_icon.png',
+  animation:google.maps.Animation.BOUNCE
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+<body>
+<div id="wraper">
+    <div class="navigation">
+        <ul>
+            <li class="text-link"><a href="#">Menu</a></li>
+            <li class="text-link"><a href="location.html" class="active">Location</a></li>
+            <li class="text-link"><a href="#">Gallery</a></li>
+            <li><a href="index.html"><img src="images/logo.png" alt="Logo"></a></li>
+            <li class="text-link"><a href="book-table.html">Book a Table</a></li>
+            <li class="text-link"><a href="our-story.html">Our Story</a></li>
+            <li class="text-link"><a href="queries.html">Queries</a></li>
+        </ul>
+    </div>
+    <div id="book-table">
+        <div class="left-story">
+        	<div class="text-book-table">
+                BOOK A TABLE
+            </div>
+        	<div id="googleMap" style="width:315px;height:640px;"></div>
+        </div>
+        <div class="right-story">
+        	<h2>Location</h2>
+            <article class="book-table-article location_para">Here we are! The map is all set to let you know where<br>we are pinned on it and certainly not far</article>
+            <p class="book-table-para">if you want a cusine at Palmeras</p> <br><br>
+            <p class="book-table-para"> La Palmeras<br>
+                                        Khalid Ibn Yazid Ibn Muawiyah,<br>
+                                        Al Olaya Riyadh 66939<br>
+                                        Saudi Arabia</p>
+        </div>
+    </div>
+    <div class="footer">
+    	<div class="left-footer">
+        	<p>&copy; 2014 Palmeras, All rights reserved.</p>
+        </div>
+        <div class="right-footer">
+        	<a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <div class="footer-text">
+                <a href="#" class="arb-border">ARB</a>
+                <a href="#">ENG</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
