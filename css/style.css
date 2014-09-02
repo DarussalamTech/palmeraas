@@ -74,11 +74,11 @@ body { width:100%; height:100%; background:url(../images/background.jpg) no-repe
 .left_menu_detail{width:227px; height:641px; background:#b1925f; position:relative; float:left; display:inline;}
 .left_menu_detail h2{font-family:candara; font-size:20px; color:#000000; text-align:center; position:relative; top:24px; height:115px;}
 .menu_details{width:95%; height:525px; /*background:#066;*/ position:relative; padding-left:10px; overflow-y:scroll;}
-.menu_details ul{width:100%; height:auto; position:relative; list-style:none; margin-bottom:15px;}
+.menu_details ul{width:100%; height:auto; position:relative; list-style:none; margin-bottom:15px; text-shadow:1px 0px 1px #000;}
 .menu_details ul li{font-family:candara; font-size:20px; color:#000; font-weight:bold;}
 .menu_details ul li a{font-family:candara; font-size:15px; color:#000; text-decoration:none; font-weight:normal;}
-.menu_details ul li a:hover, .menu_details ul li a:active{color:#FFF; text-decoration:underline;}
-.menu_details ul li a.menu_active{color:#FFF; text-decoration:underline;}
+.menu_details ul li a:hover, .menu_details ul li a:active{color:#FFF; text-decoration:underline; text-shadow:1px 0px 1px #fff;}
+.menu_details ul li a.menu_active{color:#FFF; text-decoration:underline; text-shadow:1px 0px 1px #fff;}
 .menu_details span{font-family:'Open Sans', sans-serif; font-size:16px; font-weight:bold; color:#FFF; margin-bottom:15px; text-decoration:underline; display:inline-block;}
 .right_menu_detail{width:734px; height:641px; position:relative; float:left; display:inline;}
 .right_menu_detail img{border:10px solid #000;}
