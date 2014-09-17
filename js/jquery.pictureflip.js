@@ -34,10 +34,10 @@
 		slideTime: 0.2,
 		
 		// Autorun? If this is true the slides will flip over automatically at a constant speed.
-		autoRun: false,
+		autoRun: true,
 		
 		// The time between automatic page flips in seconds.
-		autoTime: 5
+		autoTime: 4
 		
 	}
 	
