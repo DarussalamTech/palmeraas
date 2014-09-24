@@ -10,7 +10,9 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
-
+<style>
+    .loading{background:url(images/loading.gif) no-repeat center center;}
+</style>
 <script type="text/javascript" src="//use.typekit.net/vue1oix.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
@@ -20,7 +22,24 @@
 <script type="text/javascript">
 $(document).ready(function() {
 
-	$('#flipbook').pageFlip({});
+    $('#flipbook').pageFlip({});
+    $('.loading').show();
+    $('.slide img').each(function(index,el){
+        console.log("in the laoding fucntion");
+
+        //find this link's child image element
+        var img = $(this).find('img');
+
+        //hide the image and attach the load event handler
+        $(img).hide().load(function () {
+            
+        //remove the link's "loading" classname
+        $(el).removeClass('loading');
+
+        //show the loaded image
+        $(img).fadeIn();
+      })
+    });
 });
 </script>
 </head>
@@ -38,7 +57,7 @@ $(document).ready(function() {
         </ul>
     </div>
     
-    <div id="flipbook">
+    <div id="flipbook" class="flpbk">
         <div class="slide">
             <img src="images/1.png" alt="" /> 
             <!-- <div class="content"><span><a href="#">Bringing you Flavors of the Mediterranean!</a></span></div>  -->
@@ -57,11 +76,11 @@ $(document).ready(function() {
         </div>
     </div>
     <div class="footer">
-    	<div class="left-footer">
-        	<p>&copy; 2014 Palmeras, All rights reserved.</p>
+        <div class="left-footer">
+            <p>&copy; 2014 Palmeras, All rights reserved.</p>
         </div>
         <div class="right-footer">
-        	<a href="#" class="twitter_icon"></a>
+            <a href="#" class="twitter_icon"></a>
             <a href="#" class="facebook_icon"></a>
             <div class="footer-text">
                 <a href="#" class="arb-border">ARB</a>
