@@ -11,7 +11,7 @@
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <style>
-    .loading{background:url(images/loading.gif) no-repeat center center;}
+    .loading{background:url(images/loading.gif) no-repeat center center;display:block;}
 </style>
 <script type="text/javascript" src="//use.typekit.net/vue1oix.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -56,8 +56,9 @@ $(document).ready(function() {
             <li class="text-link"><a href="queries.html">Queries</a></li>
         </ul>
     </div>
-    
-    <div id="flipbook" class="flpbk">
+    <div class='loading'>
+    </div>
+    <div id="flipbook">
         <div class="slide">
             <img src="images/1.png" alt="" /> 
             <!-- <div class="content"><span><a href="#">Bringing you Flavors of the Mediterranean!</a></span></div>  -->
