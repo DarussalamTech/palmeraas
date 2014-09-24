@@ -11,8 +11,8 @@
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <style>
-.loading{background:url(images/loading.gif) no-repeat center center;width: 50px;height: 50px;float: left;position:absolute;left: 20%;
-    top: 13%;}
+/*.loading{background:url(images/loading.gif) no-repeat center center;width: 50px;height: 50px;float: left;position:absolute;left: 20%;
+    top: 13%;*}*/
 </style>
 <script type="text/javascript" src="//use.typekit.net/vue1oix.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -24,7 +24,7 @@
 $(document).ready(function() {
 
     $('#flipbook').pageFlip({});
-    $('.loading').show();
+    //$('.loading').show();
     /*$('.slide img').each(function(index,el){
         console.log("in the laoding fucntion");
 
@@ -42,12 +42,12 @@ $(document).ready(function() {
         $(img).fadeIn();
       })
     });*/
-	// main image loaded ?
+	/*	
 	$('.loaded_img').on('load', function(){
 	//console.log("in the load function ");
 	  // hide/remove the loading image
 	  $('.loading').hide();
-	});	
+	});*/	
 	
 
 });
@@ -66,8 +66,8 @@ $(document).ready(function() {
             <li class="text-link"><a href="queries.html">Queries</a></li>
         </ul>
     </div>
-    <div class='loading'>
-    </div>
+    <!--<div class='loading'>
+    </div>-->
     <div id="
         <div class="slide loading">
             <img class="loaded_img" src="images/1.png" alt="" /> 
