@@ -4,17 +4,13 @@
 
 <title>Location -- Palmeras Riyadh</title>
 
-<link rel="stylesheet" type="text/css" href="icons/ss-standard.css" />
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/scroller.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/lightbox.css">
 
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <script src="js/jquery-1.11.0.min.js"></script>
-<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
-<script type="text/javascript" src="js/prettify/prettify.js"></script>
 <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
 
 </head>
@@ -39,7 +35,7 @@
         </div>
         <div id="wrapper">
 			<div id="carousel">
-				<img src="images/image_gallery/image_1.jpg" alt="rally1"/>
+                <img src="images/image_gallery/image_1.jpg" alt="rally1"/>
 				<img src="images/image_gallery/image_2.jpg" alt="rally2"/>
 				<img src="images/image_gallery/image_3.jpg" alt="rally3"/>
 				<img src="images/image_gallery/image_4.jpg" alt="rally4"/>
@@ -96,7 +92,7 @@
 						event: 'click',
 						anchorBuilder: function(nr) {
 							var src = $(this).attr('src').replace('/large/', '/small/');
-							return '<img src="'+ src +'" border="0" />';
+							return '<div class="image_hover_box"><img src="'+ src +'" border="0" /><div class="img_hover_style"></div></div>';
 						}
 					}
 				});
