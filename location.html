@@ -3,12 +3,13 @@
 <head>
 
 <title>Location -- Palmeras Riyadh</title>
-
+<link rel="Shortcut Icon" href="images/favicon.png">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/scroller.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" type="text/css" href="css/jquery.loading-indicator.css" />
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 <script src="js/jquery-1.11.0.min.js"></script>
 <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
@@ -17,6 +18,7 @@
 <script
 src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
 </script>
+<script src="js/jquery.loading-indicator.min.js"></script>
 <script>
 var myCenter=new google.maps.LatLng(24.7082831,46.6789153);
 
@@ -74,7 +76,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </div>
     <div class="footer">
     	<div class="left-footer">
-        	<p><span>Designed & Developed by <a href="http://dtechsystems.co.uk/" title="d-tech systems">D-Tech Systems</a></span>&copy; 2014 Palmeras, All rights reserved. </p>
+        	<p><span>Designed & Developed by <a href="http://dtechsystems.co.uk/" title="d-tech systems" target="_blank">D-Tech Systems</a></span>&copy; 2014 Palmeras, All rights reserved. </p>
         </div>
         <div class="right-footer">
         	<a href="https://twitter.com/palmerasksa" target="_blank" class="twitter_icon"></a>
@@ -87,5 +89,14 @@ google.maps.event.addDomListener(window, 'load', initialize);
         </div>
     </div>
 </div>
+ <script>
+  homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+  
+  $( window ).load(function() {
+   $(".loading-indicator-wrapper").hide();
+  });
+ </script>
 </body>
 </html>

@@ -3,7 +3,10 @@
 <head>
 
 <title>Palmeras Riyadh</title>
+<link rel="Shortcut Icon" href="images/favicon.png">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.loading-indicator.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="width=device-width">
 </head>
@@ -39,7 +42,7 @@
   </div>
     <div class="footer">
     	<div class="left-footer">
-        	<p><span>Designed & Developed by <a href="http://dtechsystems.co.uk/" title="d-tech systems">D-Tech Systems</a></span>&copy; 2014 Palmeras, All rights reserved. </p>
+        	<p><span>Designed & Developed by <a href="http://dtechsystems.co.uk/" title="d-tech systems" target="_blank">D-Tech Systems</a></span>&copy; 2014 Palmeras, All rights reserved. </p>
         </div>
         <div class="right-footer">
         	<a href="https://twitter.com/palmerasksa" target="_blank" class="twitter_icon"></a>
@@ -57,6 +60,16 @@
 
   <!-- SlidesJS Required: Link to jquery.slides.js -->
   <script src="js/jquery.slides.min.js"></script>
+  <script src="js/jquery.loading-indicator.min.js"></script>
+   <script>
+  homeLoader = $('body').loadingIndicator({
+                  useImage: false,
+        }).data("loadingIndicator");
+  
+  $( window ).load(function() {
+   $(".loading-indicator-wrapper").hide();
+  });
+ </script>
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->

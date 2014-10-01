@@ -424,7 +424,7 @@ body {
 }
 
 #wrapper {
-	width:960px;
+	width:962px;
 	height:641px;
 	position:absolute;
 	overflow:hidden;
@@ -547,9 +547,10 @@ body {
 #slides {
       display: none;
 	  height:641px;
+	  width:962px;
     }
 .slidesjs-slide, .slidesjs-control ,.slidesjs-container{height:641px !important;}
-.container{width:961px !important; height:641px; position:relative;}
+.container{width:962px !important; height:641px; position:relative;}
  /* Show active item in the pagination */
     .slidesjs-pagination .active {
       background-color: #000;
