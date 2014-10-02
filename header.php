@@ -6,12 +6,12 @@
 ?>
 <div class="navigation">
     <ul>
-        <li class="text-link"><a href="menu.html">Menu</a></li>
-        <li class="text-link"><a href="location.html">Location</a></li>
-        <li class="text-link"><a href="gallery.html">Gallery</a></li>
-        <li><a href="index.html"><img src="images/logo.png" alt="Logo"></a></li>
-        <li class="text-link"><a href="book-table.html">Book a Table</a></li>
-        <li class="text-link"><a href="our-story.html">Our Story</a></li>
-        <li class="text-link"><a href="queries.html">Queries</a></li>
+        <li class="text-link"><a href="menu.php">Menu</a></li>
+        <li class="text-link"><a href="location.php">Location</a></li>
+        <li class="text-link"><a href="gallery.php">Gallery</a></li>
+        <li><a href="index.php"><img src="images/logo.png" alt="Logo"></a></li>
+        <li class="text-link"><a href="book-table.php">Book a Table</a></li>
+        <li class="text-link"><a href="our-story.php">Our Story</a></li>
+        <li class="text-link"><a href="queries.php">Queries</a></li>
     </ul>
 </div>

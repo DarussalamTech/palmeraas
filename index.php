@@ -11,9 +11,7 @@
 </head>
 <body>
 <div id="wraper">
-
     <?php include_once('header.php');?>
-    
     <div id="book-table">
         <div class="left-story">
             <div class="text-book-table">
@@ -28,15 +26,9 @@
             </div>
       </div>
     </div>
-     
     <?php include_once('footer.php');?>
-    
 </div>
-
-  <!-- End SlidesJS Required -->
-
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <!-- SlidesJS Required: Link to jquery.slides.js -->
     <script src="js/jquery.slides.min.js"></script>
     <script src="js/jquery.loading-indicator.min.js"></script>
     <script>
@@ -48,9 +40,6 @@
     $(".loading-indicator-wrapper").hide();
     });
     </script>
-    <!-- End SlidesJS Required -->
-    
-    <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
     <script>
     $(function() {
       $('#slides').slidesjs({
@@ -59,6 +48,14 @@
       });
     });
     </script>
-  <!-- End SlidesJS Required -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55240282-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>
