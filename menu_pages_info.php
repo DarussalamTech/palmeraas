@@ -12,7 +12,7 @@
 	var left_menu_data = {
 		
 		sopa_del_dia_img : 'images/soup_1.png',
-		sopa_del_dia_contents : '<p class="main_p">Two selection from oursoup of the day</p><h3>Cream Soup</h3><p>Cream Soups are thickened with béchamel sauce and veloutés are thickened with eggs, butter and cream.</p><h3>Clear Soup</h3><p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>',
+		sopa_del_dia_contents : '<p class="main_p">Two selection from our soup of the day</p><h3>Cream Soup</h3><p>Cream Soups are thickened with béchamel sauce and veloutés are thickened with eggs, butter and cream.</p><h3>Clear Soup</h3><p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>',
 		
 		spinach_sensation_img : "images/",
 		spinach_sensation_contents : '',
@@ -110,9 +110,6 @@
 		mix_paella_img : "images/",
 		mix_paella_contents : "",
 		
-		sopa_del_dia_img : "images/",
-		sopa_del_dia_contents : "",
-		
 		gourmet_beef_burger_img : "images/",
 		gourmet_beef_burger_contents : "",
 		
@@ -193,11 +190,7 @@
 		*	This function will swap the image and contents section with the link related info when click upon that link
 		*/
 		update_right_section : function(resource_name){
-			/*img = resource_name+"_img";
-			contents = resource_name+"_contents";
-			var replacing_image = this[resource_name+"_img"];
-			var replacing_contents = this[resource_name+"_contents"];*/
-			
+					
 			$("#upper_section").attr("src",this[resource_name+"_img"]);
 			$("#lower_section").html(this[resource_name+"_contents"]);						
 		}
