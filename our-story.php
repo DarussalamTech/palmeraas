@@ -18,17 +18,7 @@
 </head>
 <body>
 <div id="wraper">
-    <div class="navigation">
-        <ul>
-            <li class="text-link"><a href="menu.html">Menu</a></li>
-            <li class="text-link"><a href="location.html">Location</a></li>
-            <li class="text-link"><a href="gallery.html">Gallery</a></li>
-            <li><a href="index.html"><img src="images/logo.png" alt="Logo"></a></li>
-            <li class="text-link"><a href="book-table.html">Book a Table</a></li>
-            <li class="text-link"><a href="our-story.html" class="active">Our Story</a></li>
-            <li class="text-link"><a href="queries.html">Queries</a></li>
-        </ul>
-    </div>
+    <?php include_once('header.php');?>
     <div id="our-story">
         <div class="left-story">
         	<div class="text-our-story">
@@ -50,20 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-    	<div class="left-footer">
-        	<p><span>Designed & Developed by <a href="http://dtechsystems.co.uk/" title="d-tech systems" target="_blank">D-Tech Systems</a></span>&copy; 2014 Palmeras, All rights reserved. </p>
-        </div>
-        <div class="right-footer">
-        	<a href="https://twitter.com/palmerasksa" target="_blank" class="twitter_icon"></a>
-            <a href="https://www.facebook.com/palmerassa" target="_blank" class="facebook_icon"></a>
-            <a href="http://instagram.com/palmeras_sa" target="_blank" class="instagram_icon"></a>
-            <div class="footer-text">
-                <a href="#" class="arb-border">ARB</a>
-                <a href="#">ENG</a>
-            </div>
-        </div>
-    </div>
+    <?php include_once('footer.php');?>
 </div>
  <script>
   homeLoader = $('body').loadingIndicator({
