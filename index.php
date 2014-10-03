@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/jquery.loading-indicator.css" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width">
+    <!--Google Web Master Tracking -->
+    <meta name="google-site-verification" content="NkxDmxefHFsAm_1GPPi-sviILu4I0s81ekkYnxsoVJU" />
+
 </head>
 <body>
 <div id="wraper">
