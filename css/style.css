@@ -608,11 +608,14 @@ body {
     height: 30px;
     position: relative;
     width: 245px;
+	border:none;
+	background:#666;
+	color:#333;
 }
 input[type="checkbox"] {
     vertical-align: -5px;
 }
-textarea{width:245px; height:100px; vertical-align:38px;}
+textarea{width:245px; height:70px; vertical-align:38px; border:none;background:#666; color:#333;}
 form span{font-family: "Open Sans",sans-serif; font-size: 16px; color:#c6a877; display:inline-block; width:100px; margin-left:10px; vertical-align:-4px;}
 input[type="button"] {
     background: #9b7e4e;
@@ -625,4 +628,4 @@ input[type="button"] {
     width: 100px;
 	margin:12px 0 0 123px;
 }
-input[type="button"]:hover{background:#fce7c4; color:#9b7e4e; cursor:pointer;}
+input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
