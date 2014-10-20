@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<title>Queries -- Palmeras Riyadh</title>
+<title>Queries - Palmeras Resturant Riyadh</title>
+<meta name="description" content="For any question in your mind you can send an e-mail, drop a phone call or contact us directly via website. We are always here at Palmeras to address it.">
+<meta name="keywords" content="palmeras restaurant riyadh queries, palmeras restaurant riyadh contact us, palmeras restaurant riyadh email, palmeras restaurant riyadh phone,  بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />

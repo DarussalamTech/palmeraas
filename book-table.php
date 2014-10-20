@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<title>Palmeras Riyadh</title>
+<title>Book a Table - Palmeras Resturant Riyadh</title>
+<meta name="description" content="Booking for a Spanish luxury in Kingdom of Saudi Arabia is at Palmeras’ website. It requires no hassle for any corporate or individual bookings.">
+<meta name="keywords" content="palmeras restaurant riyadh booking, palmeras restaurant riyadh reservation,  بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />

@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<title>Location -- Palmeras Riyadh</title>
+<title>Gallery - Palmeras Resturant Riyadh</title>
+<meta name="description" content="Gallery of Palmeras defines the exquisite cuisine and the pictures of Spanish dishes add to the fun. The mouth watering joy is the real Mediterranean charm.">
+<meta name="keywords" content="palmeras restaurant riyadh gallery, palmeras restaurant riyadh pictures, palmeras restaurant gallery, best spanish restaurant in riyadh,  بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/style.css" />

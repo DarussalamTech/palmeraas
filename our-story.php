@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<title>Palmeras Riyadh</title>
+<title>Our Story - Palmeras Resturant Riyadh</title>
+<meta name="description" content="Palmeras Restaurant had a vision and a story that crafted it. This is all about it which can tell how Mediterranean cuisines entered Saudi Arabia.">
+<meta name="keywords" content="palmeras restaurant riyadh our story, palmeras restaurant riyadh about us, about palmeras restaurant, palmeras restaurant riyadh history, palmeras restaurant riyadh story, بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />

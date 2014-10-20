@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Palmeras Riyadh</title>
+<title>Menu - Palmeras Resturant Riyadh</title>
+<meta name="description" content="Saudi Arabia is the place but Mediterranean Cuisine must call you to Riyadh. Typical Spanish food and exciting drink options make you relive it all like Spain.">
+<meta name="keywords" content="spanish menu Riyadh, mediterranean menu riyadh, palmeras restaurant riyadh menu, typical spanish food, spanish food and drink,  بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />

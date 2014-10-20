@@ -2,7 +2,9 @@
 <html>
 <head>
 
-<title>Location -- Palmeras Riyadh</title>
+<title>Location - Palmeras Resturant Riyadh</title>
+<meta name="description" content="Palmeras is located at a prime location in Riyadh with access from various highways. The Spanish Cuisine with a Saudi address is a certain delight.">
+<meta name="keywords" content="palmeras location, palmeras restaurant riyadh, spanish restaurant riyadh, palmeras restaurant riyadh address,  بالميراس مطعم الرياض">
 <link rel="Shortcut Icon" href="images/favicon.png">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="css/pictureflip.css" />
