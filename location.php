@@ -44,6 +44,15 @@ marker.setMap(map);
 
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+ <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('hgroup');
+        </script>
 </head>
 <body>
 <div id="wraper">
@@ -63,6 +72,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
                                         Khalid Ibn Yazid Ibn Muawiyah,<br>
                                         Al Olaya Riyadh 66939<br>
                                         Saudi Arabia</p>
+                                        <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (0) 501383122 <font>(Restaurant Manager)</font></p>
+                                        <p class="address_icon"><span><img src="images/fax-icon.png" alt="palmeras Fax"></span>+966 (11) 4615160</p>
         </div>
     </div>
     <?php include_once('footer.php');?>

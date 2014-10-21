@@ -33,7 +33,7 @@
     </div>
     <?php include_once('footer.php');?>
 </div>
-	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/jquery.slides.min.js"></script>
     <script src="js/jquery.loading-indicator.min.js"></script>
     <script>

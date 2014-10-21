@@ -42,7 +42,8 @@
         	<h2>Book a Table</h2>
             <section>Booking a table is no hassle, however, contacting in advance can be helpful to enjoy</section>
             <article class="book-table-article">Spanish and Mediterranean Cuisines</article>
-            <p class="book-table-para">We are just a phone<br />call away for our visitors<br />and admirers</p>
+            <p class="book-table-para">We are just a phone call away for our visitors and admirers</p>
+            <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (11) 4641977</p>
             <form action="" method="post">
         	<label>Name:</label>				<input type="text" name="Name"><br>
             <label>Type of Guest:</label>		<input type="checkbox" name="Corporate" value="Corporate"><span>Corporate</span>
