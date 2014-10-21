@@ -14,6 +14,9 @@
 		sopa_del_dia_img : 'images/soup_1.png',
 		sopa_del_dia_contents : '<p class="main_p">Two selection from our soup of the day</p><h3>Cream Soup</h3><p>Cream Soups are thickened with béchamel sauce and veloutés are thickened with eggs, butter and cream.</p><h3>Clear Soup</h3><p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>',
 		
+		selection_of_tapas_del_chef_img : 'images/selection_of_tapas_del_chef.jpg',
+		selection_of_tapas_del_chef_contents : '<h3>Selection of Tapas Del Chef</h3><p>Petite variety of tapas from our appetizers.</p>',
+		
 		just_a_second_img : "images/just_a_second.jpg",
 		just_a_second_contents : '<h3>Just a Second</h3><p>Fresh steamed spinach hank topped with toasted cheese, fresh cherry and black olives, laid on crispy potato bed, dressed with extra virgin olive oil</p>',
 		
@@ -152,7 +155,7 @@
 		tarta_de_mousse_de_chocolate_img : "images/tarta_de_mouse_de_chocolat.jpg",
 		tarta_de_mousse_de_chocolate_contents : '<h3>Tarta De Mouse De Chocolat</h3><p>Cream of pure homemade chocolate cake with a mirror of vanilla and touch of mint.</p>',
 		
-		la_cerveza_despana_img : "images/soup_1.png",
+		la_cerveza_despana_img : "images/la_cervesa_de_espana.jpg",
 		la_cerveza_despana_contents : '<h3>La Cerveza Despana</h3><p>Mango and coco sorbet.</p>',
 		
 		fresh_fruits_assortment_img : "images/fresh_fruits_assortment.jpg",

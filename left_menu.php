@@ -12,14 +12,8 @@
             <li><a href="javascript:void(0)" onClick="left_menu_data.update_right_section('sopa_del_dia')"  class="menu_active">Sopa Del Dia</a></li>
         </ul>
         <ul>
-            <li>TAPAS</li>
-            <li><a href="javascript:void(0)" onClick="left_menu_data.update_right_section('just_a_second')">Just a Second</a></li>
-            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('be_careful_spicy')">Be Careful Spicy</a></li>
-            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('for_sangria')">For Sangria</a></li>
-            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('crispy_bite')">Crispy Bite</a></li>
-        </ul>
-        <ul>
             <li>APPETIZERS</li>
+            <li><a href="javascript:void(0)" onClick="left_menu_data.update_right_section('selection_of_tapas_del_chef')" >Selection of Tapas  Del Chef</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('palmeras_salad')">Palmeras Salad</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('spanish_classic_salmorejo')">Spanish Classic Salmorejo</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('tabla_de_queso')">Tabla De Queso</a></li>
@@ -96,6 +90,13 @@
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('you_like_mozzarella')">You like Mozzarella?</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('like_in_spain')">Like in Spain</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('something_new')">Something New</a></li>
+        </ul>
+        <ul>
+            <li>TAPAS</li>
+            <li><a href="javascript:void(0)" onClick="left_menu_data.update_right_section('just_a_second')">Just a Second</a></li>
+            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('be_careful_spicy')">Be Careful Spicy</a></li>
+            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('for_sangria')">For Sangria</a></li>
+            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('crispy_bite')">Crispy Bite</a></li>
         </ul>
          <span>Palmeras Drink List</span>
         <ul>

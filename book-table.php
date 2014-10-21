@@ -16,6 +16,17 @@
 <script src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
 <script src="js/jquery.loading-indicator.min.js"></script>
+
+        <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('hgroup');
+        </script>
+    </head>
 </head>
 <body>
 <div id="wraper">
