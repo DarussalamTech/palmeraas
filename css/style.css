@@ -637,3 +637,4 @@ input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
 .right-story p.address_icon{font-size:20px;}
 .right-story p.address_icon font{font-style:italic; font-size:18px;}
 .right-story p.address_icon span{vertical-align: -10px; margin-right: 10px; position:relative;}
+#testDiv4 p span {font-family: "Xtreem_Medium_Demo"; font-size: 32px; font-weight: bold; color:#a27732;}

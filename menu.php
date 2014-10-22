@@ -32,7 +32,7 @@
             <div class="menu_detail_text_div" id="lower_section">
                 <p class="main_p">Two selection from our soup of the day</p>
                 <h3>Cream Soup</h3>
-                    <p>Cream Soups are thickened with bechamel sauce and veloutes are thickened with eggs, butter and cream.</p>
+                    <p>Cream Soups are thickened with b&eacute;chamel sauce and velout&eacute;s are thickened with eggs, butter and cream.</p>
                 <h3>Clear Soup</h3>
                 <p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>
             </div>

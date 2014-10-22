@@ -12,7 +12,7 @@
 	var left_menu_data = {
 		
 		sopa_del_dia_img : 'images/soup_1.png',
-		sopa_del_dia_contents : '<p class="main_p">Two selection from our soup of the day</p><h3>Cream Soup</h3><p>Cream Soups are thickened with béchamel sauce and veloutés are thickened with eggs, butter and cream.</p><h3>Clear Soup</h3><p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>',
+		sopa_del_dia_contents : '<p class="main_p">Two selection from our soup of the day</p><h3>Cream Soup</h3><p>Cream Soups are thickened with b&eacute;chamel sauce and velout&eacute;s are thickened with eggs, butter and cream.</p><h3>Clear Soup</h3><p>Soothing clear soups are made with flavorful meats, vegetables and broths as well as grain cereals.</p>',
 		
 		selection_of_tapas_del_chef_img : 'images/selection_of_tapas_del_chef.jpg',
 		selection_of_tapas_del_chef_contents : '<h3>Selection of Tapas Del Chef</h3><p>Petite variety of tapas from our appetizers.</p>',
@@ -63,7 +63,7 @@
 		crispy_aubergine_with_hummus_contents : '<h3>Crispy Aubergine with Hummus</h3><p>Deep fried sliced eggplant laid on a bed of ground chickpeas with tahina sauce topped with natural honey.</p>',
 		
 		typical_spanish_croquette_img : "images/spanish_croquette.jpg",
-		typical_spanish_croquette_contents : '<h3>Typical Spanish Croquette of Partridge in Nest</h3><p>Deep fried quail in thyme béchamel sauce laid in crispy potatoes served with quail sauce</p>',
+		typical_spanish_croquette_contents : '<h3>Typical Spanish Croquette of Partridge in Nest</h3><p>Deep fried quail in thyme b&eacute;chamel sauce laid in crispy potatoes served with quail sauce</p>',
 		
 		spanish_classic_octopus_img : "images/spanish_classic_octopus.jpg",
 		spanish_classic_octopus_contents : '<h3>Spanish Classic Octopus.jpg</h3><p>Natural oak charcoal grilled octopus seasoned with sweet paprika, extra virgin olive oil and salt of Maldon served with boiled bay leaves potato</p>',
@@ -72,10 +72,10 @@
 		spicy_potatoes_bravas_contents : '<h3>Spicy Potatoes (Bravas)</h3><p>Deep fried square potatoes stuffed with spicy Spanish sauces</p>',
 		
 		typical_spanish_tortilla_img : "images/spanish_tortilla.jpg",
-		typical_spanish_tortilla_contents : '<h3>Typical Spanish Tortilla</h3><p>Spanish potato omelet candied with natural olive oil and sauté onion with fresh basil dip</p>',
+		typical_spanish_tortilla_contents : '<h3>Typical Spanish Tortilla</h3><p>Spanish potato omelet candied with natural olive oil and saut&eacute; onion with fresh basil dip</p>',
 		
 		cod_with_spanish_ratatouille_img : "images/cod_with_spanish_ratatouille.jpg",
-		cod_with_spanish_ratatouille_contents : '<h3>Cod with Spanish Ratatouille</h3><p>Filet of hammour on a base of sautéed dice mixed vegetables Spanish style and thin slice of crispy beetroot.</p>',
+		cod_with_spanish_ratatouille_contents : '<h3>Cod with Spanish Ratatouille</h3><p>Filet of hammour on a base of saut&eacute;ed dice mixed vegetables Spanish style and thin slice of crispy beetroot.</p>',
 		
 		classic_mediterranean_rosellat_img : "images/mediterenean_rosellat.jpg",
 		classic_mediterranean_rosellat_contents : '<h3>Classic Mediterranean Rosellat</h3><p>Deep fry angles hair with sole fish and sauteed mushrooms boiled in homemade soya sauce consomme </p>',
@@ -114,7 +114,7 @@
 		sirloin_steak_paella_contents : '<h3>Sirloin Steak Paella</h3><p>Cooked rice with diced prime sirloin, mixed vegetables painted with tomato sauce with a touch of charcoal.</p>',
 		
 		mix_paella_img : "images/mix_paella.jpg",
-		mix_paella_contents : '<h3>Mix Paella</h3><p>Cream Soups are thickened with béchamel sauce and veloutés are thickened with eggs, butter and cream.</p>',
+		mix_paella_contents : '<h3>Mix Paella</h3><p>Cream Soups are thickened with b&eacute;chamel sauce and velout&eacute;s are thickened with eggs, butter and cream.</p>',
 		
 		gourmet_beef_burger_img : "images/gourme_beef_burger.jpg",
 		gourmet_beef_burger_contents : '<h3>Gourme Beef Burger</h3><p>Homemade beef burger with caramelized Spanish onion and fresh sliced tomatoes served with julienne fried potatoes and dips.</p>',
@@ -141,7 +141,7 @@
 		penne_palmeras_contents : '<h3>Penne Palmeras</h3><p>Fresh mango, blueberry and raisins with Canadian tenderloin, in the fusion of basil and thyme sauce topped with emental cheese.</p>',
 		
 		fettuccini_mushroom_cream_img : "images/fettuccini_mushroom_cream.jpg",
-		fettuccini_mushroom_cream_contents : '<h3>Fettuccini Mushroom Cream</h3><p>Fettuccini with marinated chicken breast, sautéed Spanish onion, leek and garlic, and white mushroom cooked in the crème béchamel sauce.</p>',
+		fettuccini_mushroom_cream_contents : '<h3>Fettuccini Mushroom Cream</h3><p>Fettuccini with marinated chicken breast, saut&eacute;ed Spanish onion, leek and garlic, and white mushroom cooked in the crème b&eacute;chamel sauce.</p>',
 		
 		penne_arabica_img : "images/penne_arabiata.jpg",
 		penne_arabica_contents : '<h3>Penne Arabiata</h3><p>Penne pasta with fresh green olive, Spanish onion, garlic and red chili, steamed in fresh tomato sauce seasoned with black pepper topped with emental cheese.</p>',
@@ -156,7 +156,7 @@
 		tarta_de_mousse_de_chocolate_contents : '<h3>Tarta De Mouse De Chocolat</h3><p>Cream of pure homemade chocolate cake with a mirror of vanilla and touch of mint.</p>',
 		
 		la_cerveza_despana_img : "images/la_cervesa_de_espana.jpg",
-		la_cerveza_despana_contents : '<h3>La Cerveza Despana</h3><p>Mango and coco sorbet.</p>',
+		la_cerveza_despana_contents : '<h3>La Cervesa De Espana</h3><p>Mango and coco sorbet.</p>',
 		
 		fresh_fruits_assortment_img : "images/fresh_fruits_assortment.jpg",
 		fresh_fruits_assortment_contents : '<h3>Fresh Fruits Assortment</h3><p>Mediterranean selected fresh fruits and wood berries.</p>',
@@ -177,7 +177,7 @@
 		if_you_are_hungry_contents : '<h3>If You Are Hungry</h3><p>Homemade beef burger twins with fresh tomato, radicchio and roman lettuce, caramelized onion grated cheese served in the hot burger bans, with French fries and ketchup.</p>',
 		
 		share_this_img : "images/share_this.jpg",
-		share_this_contents : '<h3>Share This</h3><p>Deep fried shrimps coated with creamy béchamel sauce served with homemade spicy potatoes, fresh basil sauce and lime.</p>',
+		share_this_contents : '<h3>Share This</h3><p>Deep fried shrimps coated with creamy b&eacute;chamel sauce served with homemade spicy potatoes, fresh basil sauce and lime.</p>',
 		
 		healthy_img : "images/healthy.jpg",
 		healthy_contents : '<h3>Healthy</h3><p>Fresh open chicken breast on the grill, stuffed with mozzarella and topped with pineapple cream sauce walnuts and pine nuts, accompanied with French fries and steamed vegetable.</p>',
@@ -189,7 +189,7 @@
 		like_in_spain_contents : '<h3>Like In Spain</h3><p>Marinated sole roll in garlic and lime, with mushroom, leek and thyme bundle, accompanied with fresh lettuce and patatas fritas.</p>',
 		
 		something_new_img : "images/something_new.jpg",
-		something_new_contents : '<h3>Something New</h3><p>Canadian tenderloin with roast granny smith apple cocktail tomatoes on mirror of sweet foiet or mushroom sauce served with homemade crispy potato chips.</p>',
+		something_new_contents : '<h3>Something New</h3><p>Canadian tenderloin with roast granny smith apple cocktail tomatoes on mirror of mushroom sauce served with homemade crispy potato chips.</p>',
 		
 		
 		

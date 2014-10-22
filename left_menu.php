@@ -68,7 +68,7 @@
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('brochettes_de_beef_tenderloin')">Brochettes De Beef Tenderloin</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('penne_palmeras')">Penne Palmeras</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('fettuccini_mushroom_cream')">Fettuccini mushroom cream with or without chicken</a></li>
-            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('penne_arabica')">Penne Arabica</a></li>
+            <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('penne_arabica')">Penne Arabiata</a></li>
             <li><a href="javascript:void(0" onClick="left_menu_data.update_right_section('spaghetti_de_mamma_mia')">Spaghetti de Mamma Mia</a></li>
         </ul>
         <ul>
