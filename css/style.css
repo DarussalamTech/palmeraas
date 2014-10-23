@@ -618,12 +618,13 @@ body {
 							position: relative;
 							width: 250px;
 							border:none;
-							background:#dcd2c6;
+							background:#fff;
 							color:#333;
 							padding-left:10px;
 							font-family: "Open Sans",sans-serif; font-size: 14px;
+							background-image:none !important;
 						}
-.right-story form select{width:70px;}
+.right-story form select{padding-left: 2px; width: 49.7px}
 .right-story form select option{padding-left:10px;}
 
 textarea{width:245px; height:70px; vertical-align:middle; border:none;background:#666; color:#333;}
@@ -637,10 +638,24 @@ input[type="button"] {
     font-weight: bold;
     height: 30px;
     width: 100px;
-	margin:0 0 0 122px;
+	margin:0 0 0 283px;
 }
 input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
 .right-story p.address_icon{font-size:20px;}
 .right-story p.address_icon font{font-style:italic; font-size:18px;}
 .right-story p.address_icon span{vertical-align: -10px; margin-right: 10px; position:relative;}
 #testDiv4 p span {font-family: "Xtreem_Medium_Demo"; font-size: 32px; font-weight: bold; color:#a27732;}
+.input-parent.input-container {
+    display: inline;
+    width: 320px;
+}
+button.beatpicker-clear { background: #9b7e4e;
+    border: medium none;
+    color: #fce7c4;
+    font-family: open sans;
+    font-size: 13px;
+    font-weight: bold;
+    height: 30px;
+    width: 50px;
+	display:none;}
+.time_label{ margin-left: 10px !important; margin-top: 3px !important; width: 40px !important;}
