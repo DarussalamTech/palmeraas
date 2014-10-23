@@ -45,7 +45,7 @@
             <p class="book-table-para">We are just a phone call away for our visitors and admirers</p>
             <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (11) 4641977</p>
             <form action="" method="post">
-        	<label>Name:</label>				<input type="text" name="Name" placeholder="Full Name...">
+        	<label>Name:</label>                                   <input type="text" name="Name" placeholder="Full Name...">
             <label class="time_label">Type:</label>                <select style="width:105px !important;" name="type">
                                                         <option>Individuals</option>
                                                         <option>Family</option>

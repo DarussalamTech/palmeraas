@@ -623,6 +623,7 @@ body {
 							padding-left:10px;
 							font-family: "Open Sans",sans-serif; font-size: 14px;
 							background-image:none !important;
+							margin-bottom:10px;
 						}
 .right-story form select{padding-left: 2px; width: 59.6px}
 .right-story form select option{padding-left:10px;}
@@ -658,4 +659,4 @@ button.beatpicker-clear { background: #9b7e4e;
     height: 30px;
     width: 50px;
 	display:none;}
-.time_label{ margin-left: 24px !important; margin-top: 3px !important; width: 90px !important;}
+.time_label{ margin-left: 24px !important; width: 90px !important;}
