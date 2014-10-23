@@ -16,7 +16,6 @@
 <script src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
 <script src="js/jquery.loading-indicator.min.js"></script>
-
         <script>
         document.createElement('header');
         document.createElement('nav');
@@ -26,7 +25,6 @@
         document.createElement('footer');
         document.createElement('hgroup');
         </script>
-    </head>
 </head>
 <body>
 <div id="wraper">
@@ -45,12 +43,36 @@
             <p class="book-table-para">We are just a phone call away for our visitors and admirers</p>
             <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (11) 4641977</p>
             <form action="" method="post">
-        	<label>Name:</label>				<input type="text" name="Name"><br>
-            <label>Type of Guest:</label>		<input type="checkbox" name="Corporate" value="Corporate"><span>Corporate</span>
-												<input type="checkbox" name="Family" value="Family" style="margin-left:35px;"><span>Family</span><br>
-            <label>Number of Persons:</label>	<input type="text" name="number of person"><br>
-            <label>Comments:</label>			<textarea name="comments" ></textarea><br>
-            <input type="button" name="button" value="BOOK">
+        	<label>Name:</label>				<input type="text" name="Name" placeholder="Name..."><br>
+            <label>Email:</label>		<input type="email" name="email" placeholder="Email..."><br>
+            <label>Date & Time:</label>		<input type="datetime" name="date_time"><br>
+            <label>Phone No.</label>		<input type="tel" name="telephone" placeholder="Phone No..."><br>
+            <label>Number of Persons:</label>	
+            		<select name="number of person">
+                    	<option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>
+                    <br>
+            <!--<label>Comments:</label>			<textarea name="comments" ></textarea><br>-->
+            <input class="booking_button" type="button" name="button" value="BOOK">
         </form>
         </div>
     </div>

@@ -38,7 +38,8 @@
         </div>
         <div class="right-story">
         	<h2>For Queries</h2>
-            <article class="book-table-article">Get in touch with us to know it all about<br>You can drop us a message at: e-mail<br>Or you can call us at</article>
+            <article class="book-table-article">Get in touch with us to know it all about<br>You can drop us a message at 
+            <p class="address_icon"><span><img src="images/email-icon.png" alt="palmeras phone"></span>rm@palmerasksa.com</p>Or you can call us at</article>
             <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (11) 4641977</p>
             <p class="book-table-para">We will make sure to get back to<br>you as our earliest.</p>
         </div>

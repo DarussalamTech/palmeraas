@@ -609,17 +609,23 @@ body {
 	margin:10px 0;
 	vertical-align:middle;
 }
-.right-story form input[type=text]{
-    height: 30px;
-    position: relative;
-    width: 245px;
-	border:none;
-	background:#666;
-	color:#333;
-}
-input[type="checkbox"] {
-    vertical-align: -5px;
-}
+.right-story form input[type=text],
+.right-story form input[type=tel],
+.right-story form input[type=datetime],
+.right-story form input[type=email],
+.right-story form select{
+							height: 30px;
+							position: relative;
+							width: 250px;
+							border:none;
+							background:#dcd2c6;
+							color:#333;
+							padding-left:10px;
+							font-family: "Open Sans",sans-serif; font-size: 14px;
+						}
+.right-story form select{width:70px;}
+.right-story form select option{padding-left:10px;}
+
 textarea{width:245px; height:70px; vertical-align:middle; border:none;background:#666; color:#333;}
 form span{font-family: "Open Sans",sans-serif; font-size: 16px; color:#c6a877; display:inline-block; width:100px; margin-left:10px; vertical-align:-4px;}
 input[type="button"] {
@@ -631,7 +637,7 @@ input[type="button"] {
     font-weight: bold;
     height: 30px;
     width: 100px;
-	margin:12px 0 0 123px;
+	margin:0 0 0 122px;
 }
 input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
 .right-story p.address_icon{font-size:20px;}
