@@ -45,36 +45,18 @@
             <p class="book-table-para">We are just a phone call away for our visitors and admirers</p>
             <p class="address_icon"><span><img src="images/telephone_icon.png" alt="palmeras phone"></span>+966 (11) 4641977</p>
             <form action="" method="post">
-        	<label>Name:</label>				<input type="text" name="Name" placeholder="Full Name..."><br>
-            <label>Email:</label>		<input type="email" name="email" placeholder="Valid Email..."><br>
-            <label>Phone No:</label>		<input type="tel" name="telephone" placeholder="Phone No..."><br>
-            <label>Date:</label>		<!--<input type="datetime" name="date_time">--> <input type="text" data-beatpicker="true" placeholder="Click to Select.."/><br>
-            <label>Number of Persons:</label>	
-            		<select name="number of person">
-                    	<option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                        <option>11</option>
-                        <option>12</option>
-                        <option>13</option>
-                        <option>14</option>
-                        <option>15</option>
-                        <option>16</option>
-                        <option>17</option>
-                        <option>18</option>
-                        <option>19</option>
-                        <option>20</option>
-                    </select>
+        	<label>Name:</label>				<input type="text" name="Name" placeholder="Full Name...">
+            <label class="time_label">Type:</label>                <select style="width:105px !important;" name="type">
+                                                        <option>Individuals</option>
+                                                        <option>Family</option>
+                                                        <option>Company</option>
+                                                    </select>	<br>
+            <label>Email:</label>		<input type="email" name="email" placeholder="Valid Email...">
+            <label class="time_label">Phone No:</label>		<input type="tel" name="telephone" placeholder="Phone No..."><br>
+            <label>Date:</label>		<!--<input type="datetime" name="date_time">--> <input type="text" data-beatpicker="true" placeholder="Click to Select.."/>
                     
-                    <label class="time_label">Time</label>	
-            		<select name="number of person">
+                    <label class="time_label">Time:</label>	
+            		<select name="hour">
                     	<option>01</option>
                         <option>02</option>
                         <option>03</option>
@@ -88,7 +70,7 @@
                         <option>11</option>
                         <option>12</option>
                     </select>	
-            		<select name="number of person">
+            		<select name="minuts">
                     	<option>00</option>
                     	<option>01</option>
                         <option>02</option>
@@ -150,10 +132,82 @@
                         <option>58</option>
                         <option>59</option>
                     </select>
-					<select name="number of person">
+					<select name="time_format">
                     	<option>AM</option>
                     	<option>PM</option>
                     </select>	
+                    <br>
+                    <!-- <label>Number of Persons:</label>	
+            		<select name="number of person">
+                    	<option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>-->
+                    <label>Males:</label>	
+            		<select style="width:44.6px !important;" name="male">
+                        <option selected>0</option>
+                    	<option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>
+                    <label style="margin: 0 -10px 0 10px !important;">Females:</label>	
+            		<select style="width:44.6px !important;" name="female">
+                        <option selected>0</option>
+                    	<option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                    </select>
                     <br>
             <!--<label>Comments:</label>			<textarea name="comments" ></textarea><br>-->
             <input class="booking_button" type="button" name="button" value="BOOK">

@@ -605,7 +605,7 @@ body {
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
     font-weight: bold;
-    width: 120px;
+    width: 90px;
 	margin:10px 0;
 	vertical-align:middle;
 }
@@ -616,7 +616,7 @@ body {
 .right-story form select{
 							height: 30px;
 							position: relative;
-							width: 250px;
+							width: 175px;
 							border:none;
 							background:#fff;
 							color:#333;
@@ -624,7 +624,7 @@ body {
 							font-family: "Open Sans",sans-serif; font-size: 14px;
 							background-image:none !important;
 						}
-.right-story form select{padding-left: 2px; width: 49.7px}
+.right-story form select{padding-left: 2px; width: 59.6px}
 .right-story form select option{padding-left:10px;}
 
 textarea{width:245px; height:70px; vertical-align:middle; border:none;background:#666; color:#333;}
@@ -638,7 +638,7 @@ input[type="button"] {
     font-weight: bold;
     height: 30px;
     width: 100px;
-	margin:0 0 0 283px;
+	margin:0 0 0 483px;
 }
 input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
 .right-story p.address_icon{font-size:20px;}
@@ -658,4 +658,4 @@ button.beatpicker-clear { background: #9b7e4e;
     height: 30px;
     width: 50px;
 	display:none;}
-.time_label{ margin-left: 10px !important; margin-top: 3px !important; width: 40px !important;}
+.time_label{ margin-left: 24px !important; margin-top: 3px !important; width: 90px !important;}
