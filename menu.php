@@ -17,7 +17,9 @@
 <script src="js/jquery.loading-indicator.min.js"></script>
 
 <?php include_once('menu_pages_info.php');?>
-
+ <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+   <![endif]-->
 </head>
 <body>
 <div id="wraper">

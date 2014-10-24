@@ -12,7 +12,9 @@
     <meta name="viewport" content="width=device-width">
     <!--Google Web Master Tracking -->
     <meta name="google-site-verification" content="NkxDmxefHFsAm_1GPPi-sviILu4I0s81ekkYnxsoVJU" />
-
+	<!--[if IE]>
+	  <link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+    <![endif]-->
 </head>
 <body>
 <div id="wraper">

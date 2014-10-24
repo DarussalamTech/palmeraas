@@ -25,6 +25,9 @@
         document.createElement('footer');
         document.createElement('hgroup');
         </script>
+         <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+   <![endif]-->
 </head>
 <body>
 <div id="wraper">
@@ -47,7 +50,7 @@
                 <p>I said to him: &quot;I will offer you to clone this great restaurant of yours and have it moved to the Kingdom of Saudi Arabia.&quot;</p> 
 				<p>To which I quickly added, &quot;it is better for you to agree with me now than to show up tomorrow at the exhibition. For by then I will have your restaurant in competition with other restaurant&quot;</p>
 				<p>Frederico was quick and relied &quot;no .. no .. I will take you to the Exhibition at ten in the morning myself!&quot;</p>
- 				<p>I was surprised at the answer thinking he would agree immediately. He then continued &quot;... I challenge you to find a company that specializes in planning, design, implementation, management and operation of restaurants in Spain with the rest of my partners! My partners are Mr. Benjamin, one of the smartest characters in Madrid. He is ultra-elegant and has a chain of great restaurants. Also Mr. Ramon who does not just have great charisma but also excellent leadership characteristics and is currently the president of the young chefs Federation in Europe and owns owns one of the largest Restaurants in Madrid.&quot;</p>
+ 				<p>I was surprised at the answer thinking he would agree immediately. He then continued &quot;... I challenge you to find a company that specializes in planning, design, implementation, management and operation of restaurants in Spain with the rest of my partners! My partners are Mr. Benjamin, one of the smartest characters in Madrid. He is ultra-elegant and has a chain of great restaurants. Also Mr. Ramon who does not just have great charisma but also excellent leadership characteristics and is currently the president of the young chefs Federation in Europe and owns one of the largest Restaurants in Madrid.&quot;</p>
 				<p>Of course they won the bet!</p>
 				<p>And the result now surrounds you. This is the new spirit of the &quot;Concept&quot; I chanced upon in Spain. It is inspired by Granada Architecture, and is the product of more than two years of hard work by the team. The Spanish team members have visited us on numerous occasions to assist us in ensuring that we perfectly introduce the &quot;Concept&quot; , its flavors and ambiance to Riyadh and its inhabitants. This is important to me so that our guests can experience the same as I did: the warmth of the place the delicious dishes all while enjoying an excellent service.</p>
                 <p style="text-align:right"><span>Youssef..</span></p>

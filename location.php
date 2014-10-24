@@ -53,6 +53,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
         document.createElement('footer');
         document.createElement('hgroup');
         </script>
+         <!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="css/all-ie-only.css" />
+   <![endif]-->
 </head>
 <body>
 <div id="wraper">
