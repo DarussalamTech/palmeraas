@@ -642,6 +642,20 @@ input[type="button"] {
 	margin:0 0 0 483px;
 }
 input[type="button"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
+
+input[type="submit"] {
+    background: #9b7e4e;
+    border: medium none;
+    color: #fce7c4;
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+	margin:0 0 0 483px;
+}
+input[type="submit"]:hover{background:#9b7e4e; color:#000; cursor:pointer;}
+
 .right-story p.address_icon{font-size:20px;}
 .right-story p.address_icon font{font-style:italic; font-size:18px;}
 .right-story p.address_icon span{vertical-align: -10px; margin-right: 10px; position:relative;}
